@@ -7,5 +7,5 @@
 - Tutorials
 
 - Example apps
-  - Counter
-  - WeightTracker    
+  - [Counter](counter.md)
+  - [WeightTracker](weighttracker.md)    

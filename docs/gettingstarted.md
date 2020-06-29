@@ -8,6 +8,11 @@ In order to use framy, you will need two following packages:
 * [framy_annotation](https://github.com/Fidev-io/framy/tree/master/framy_annotation) - A package containing annotation classes.
 * [framy_generator](https://github.com/Fidev-io/framy/tree/master/framy_generator) - A powerful code generator which creates whole application based on the annotations used.
 
+| Package                                                                            | Pub                                                                                                    |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [framy_annotation](https://github.com/Fidev-io/framy/tree/master/framy_annotation) | [![pub package](https://img.shields.io/pub/v/framy_annotation.svg)](https://pub.dev/packages/framy_annotation) |
+| [framy_generator](https://github.com/Fidev-io/framy/tree/master/framy_generator)   | [![pub package](https://img.shields.io/pub/v/framy_generator.svg)](https://pub.dev/packages/framy_generator) |
+
 ## Installation
 
 ### Get packages
@@ -15,13 +20,13 @@ In order to use framy, you will need two following packages:
 To use Framy, you will need your typical build_runner/code-generator setup.  
 First, install `build_runner` and Framy by adding them to your `pubspec.yaml` file:  
 
-[pubspec.yaml](_snippets/getting_started/framy_pubspec.yaml.md ':include')
+[pubspec.yaml](_snippets/gettingstarted/framy_pubspec.yaml.md ':include')
 
 
 ### Add the @FramyApp annotation
 `@FramyApp` annotation is coming from `framy_annotations` package. It's only purpose is to specify where the Framy app should be generated. Without this, the generator will not work. There should be only one `@FramyApp` annotation for the project.
 
-[main.dart](_snippets/annotation_framy_app_demo.dart.md ':include')
+[main.dart](_snippets/gettingstarted/annotation_framy_app_demo.dart.md ':include')
 
 
 ### Run the generator
