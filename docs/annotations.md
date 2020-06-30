@@ -18,7 +18,7 @@ Since Framy uses the same widgets you do, it should use the same Theme as well. 
 
 [main.dart](_snippets/annotations/framy_theme_demo.dart.md ':include')
 
-!> Method annotated with FramyTheme must be public (available to use form outside the file)!
+!> Method annotated with FramyTheme must be public (available to use from outside the file)!
 
 #### Using with custom theme class
 

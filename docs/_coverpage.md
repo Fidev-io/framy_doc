@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/framy_annotation.svg)](https://pub.dartlang.org/packages/framy_annotation)
 [![pub package](https://img.shields.io/pub/v/framy_generator.svg)](https://pub.dartlang.org/packages/framy_generator)
-[![DemoApp](https://img.shields.io/badge/Github%20Pages-Demo%20App-brightgreen)](https://fidev-io.github.io/framy/)
+[![ExampleApps](https://img.shields.io/badge/Github%20Pages-Example%20Apps-brightgreen)](https://fidev-io.github.io/framy/)
 [![Acceptance tests](https://github.com/Fidev-io/framy/workflows/Acceptance%20tests/badge.svg?event=push)](https://github.com/Fidev-io/framy/actions?query=workflow%3A%22Acceptance+tests%22)
 [![Unit tests](https://github.com/Fidev-io/framy/workflows/Unit%20tests/badge.svg?event=push)](https://github.com/Fidev-io/framy/actions?query=workflow%3A%22Unit+tests%22)
 [<img src="https://img.shields.io/badge/slack-FramyChat-yellow.svg?logo=slack">](https://join.slack.com/t/framy/shared_invite/zt-ffqv9tgl-kpn8cLNnPtPTeEK_Pa5ckA)
