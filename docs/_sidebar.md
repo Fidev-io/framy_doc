@@ -4,7 +4,16 @@
   - [Why Framy?](whyframy.md)
   - [Annotations](annotations.md)
 
-- Tutorials
+- Cookbooks
+  - [Add own Widgets](tutorialownwidgets.md)
+  - [Add Device Preview](tutorialdevicepreview.md)
+  - [Use custom models](tutorialcustommodels.md)
+  - [Predefining presets](tutorialpresets.md)
+  - [Use Framy with Provider](tutorialprovider.md)
+  - [Use Framy with Freezed](tutorialfreezed.md)
+  
+- Video tutorials
+  - [Interact with your widgets in isolation](videointeract.md)
 
 - Example apps
   - [Counter](counter.md)

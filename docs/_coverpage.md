@@ -1,7 +1,7 @@
 <h1 style=font-size:160px>Framy</h1>
 
-[![pub package](https://img.shields.io/pub/v/framy_annotation.svg)](https://pub.dartlang.org/packages/framy_annotation)
-[![pub package](https://img.shields.io/pub/v/framy_generator.svg)](https://pub.dartlang.org/packages/framy_generator)
+[![pub package](https://img.shields.io/pub/v/framy_annotation.svg?label=framy_annotation)](https://pub.dartlang.org/packages/framy_annotation)
+[![pub package](https://img.shields.io/pub/v/framy_generator.svg?label=framy_generator)](https://pub.dartlang.org/packages/framy_generator)
 [![ExampleApps](https://img.shields.io/badge/Github%20Pages-Example%20Apps-brightgreen)](https://fidev-io.github.io/framy/)
 [![Acceptance tests](https://github.com/Fidev-io/framy/workflows/Acceptance%20tests/badge.svg?event=push)](https://github.com/Fidev-io/framy/actions?query=workflow%3A%22Acceptance+tests%22)
 [![Unit tests](https://github.com/Fidev-io/framy/workflows/Unit%20tests/badge.svg?event=push)](https://github.com/Fidev-io/framy/actions?query=workflow%3A%22Unit+tests%22)
