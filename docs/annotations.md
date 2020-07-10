@@ -68,3 +68,38 @@ FramyUserProvider with FramyWidget will cause the generated app to pass a depend
 
 [user.framy.dart](_snippets/annotations/framy_use_provider.dart.md ':include')
 
+See [Use Framy with Provider](https://framy.dev/#/tutorialprovider) for more.
+
+## FramyRegisterRiverpod
+
+> Annotate your Riverpod's Provider objects to let know Framy about them! 
+
+```dart
+@FramyRegisterRiverpod() //<--- Add this to register Riverpod's Provider
+final weightEntries = Provider((ref) => [ 
+      WeightEntry(DateTime(2020, 07, 01), 79, ''),
+      WeightEntry(DateTime(2020, 07, 02), 78.6, ''),
+    ]);
+```
+
+See [Use Framy with Riverpod](https://framy.dev/#/tutorialriverpod) for more.
+
+## FramyUseRiverpod
+
+> Annotate your widgets that are dependent on Riverpod's providers to customize them in FramyApp! 
+
+```dart
+@FramyUseRiverpod('weightEntries') //<--- Add this to change provider's value
+@framyWidget
+class HistoryPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Consumer((context, read) {
+      final entries = read(weightEntries);
+      ...
+    });
+  }
+}
+```
+
+See [Use Framy with Riverpod](https://framy.dev/#/tutorialriverpod) for more.
