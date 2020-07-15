@@ -8,6 +8,8 @@ Framy App is the only _required_ annotation. The best place to use it is the mai
 
 [main.dart](_snippets/annotations/framy_app_demo.dart.md ':include')
 
+> You can pass `useDevicePreview` param to `FramyApp` to enable device preview. See more in [device preview](device_preview.md) cookbook
+
 ## FramyTheme
 
 > FramyTheme points out the ThemeData used in the Flutter application.
