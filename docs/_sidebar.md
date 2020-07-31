@@ -13,6 +13,7 @@
   - [Use Framy with Riverpod](tutorialriverpod.md)
   - [Use Framy with Freezed](tutorialfreezed.md)
   - [Use Framy with Built_value](tutorialbuiltvalue.md)
+  - [YAML configurations](yamlconfigs.md)
   
 - Video tutorials
   - [Interact with your widgets in isolation](videointeract.md)
