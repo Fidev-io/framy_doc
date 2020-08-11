@@ -14,6 +14,7 @@
   - [Use Framy with Freezed](tutorialfreezed.md)
   - [Use Framy with Built_value](tutorialbuiltvalue.md)
   - [YAML configurations](yamlconfigs.md)
+  - [**NEW!** Generating tests](generating_tests.md)
   
 - Video tutorials
   - [Interact with your widgets in isolation](videointeract.md)

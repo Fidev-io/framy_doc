@@ -105,3 +105,14 @@ class HistoryPage extends StatelessWidget {
 ```
 
 See [Use Framy with Riverpod](https://framy.dev/#/tutorialriverpod) for more.
+
+## FramyGoldenTests
+
+> Add this annotation in any place under test folder and enjoy generated golden tests!
+```dart
+@FramyGoldenTests()
+void main() {
+}
+```
+
+See [Generating tests](https://framy.dev/#/generating_tests) for more.
